@@ -1,5 +1,19 @@
 ## Welcome to GitHub Pages
 
+[Create Account](Create-Account.html)
+[Login To Account](Login-to-account.html)
+[Logout Of Account](Logout-of-account.html)
+[Delete Account](Delete-account.html)
+[Edit Personal Info](Edit-personal-info.html)
+[Shop For Groceries](Shop-for-groceries.html)
+[View Shopping Cart](view-shopping-cart.html)
+[Checkout](Checkout.html)
+[View Past Orders](view-past-orders.html)
+[Contact Store](contact-store.html)
+[Contact Delivery Driver](contact-delivery-driver.html)
+[Check Membership](check-membership.html)
+[Submit Feedback](submit-feedback.html)
+
 You can use the [editor on GitHub](https://github.com/IsaacSalaz/grocery/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
