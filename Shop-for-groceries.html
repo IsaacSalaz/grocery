@@ -5,14 +5,72 @@
     </head>
     <body>
         <h1>Shop for groceries</h1>
-        <h2>Select Delivery</h2>
-        <h3>Select Delivery Address</h3>
-        <h3>Select Store</h3>
-        <h2>Select Pickup</h2>
-        <h3>Select Store</h3>
+        <h2>Delivery or Pickup?</h2>
+        <input type="radio" id= "Delivery" name="DorP" value="Delivery"><label for="Delievery">Delivery</label><br>     
+        <input type="radio" id= "Pickup" name="DorP" value="Pickup"><label for="Pickup">Pickup</label><br>   
+        <h3>Enter Delivery Address</h3>
+        <td>Delivery Address:</td>
+        <input type="text"      placeholder="Address">      <br>
+        <h3>Pickup Location</h3>
+        <select>
+            <option></option>
+            <option>555 Main Ave.</option>
+            <option>666 Naim Ave.</option>
+        </select>
+        <h2>What store location would you like to shop from?</h2>
+        <select>
+            <option></option>
+            <option>555 Main Ave.</option>
+            <option>666 Naim Ave.</option>
+        </select>
         <h2>Browse products</h2>
+        <td>Category:</td>
+        <select>
+            <option></option>
+            <option>Produce</option>
+            <option>Meat/Seafood</option>
+            <option>Dry Goods</option>
+            <option>Household</option>
+            <option>Alcohol</option>
+        </select>
         <h2>Search items via keyword</h2>
-        <h2>Add products to shopping cart</h2>
+        <td>Search:</td>
+        <input type="text"      placeholder="Search">      <br>
+        <table>
+            </tr>
+            <tr>
+            <td><img src="chips.jpg" style="width:200px"></td>
+            <td style="text-align:left;vertical-align:top">
+            Chips: $2.20<br>
+            Nature's Garden Bannana Chips. 15 oz bag.<br>
+            <input type="button" value="Add to Cart" onClick="location.href='added-to-cart.html'">
+            </td>
+            </tr>
+            <tr>
+            <td><img src="chiquita.jpg" style="width:200px"></td>
+            <td style="text-align:left;vertical-align:top">
+            Chiquita Bananas: $.79 per lb<br>
+            Chiquita brand bananas.<br>
+            <input type="button" value="Add to Cart" onClick="location.href='added-to-cart.html'">
+            </td>
+            <tr>
+            <td><img src="manzano.jpg" style="width:200px"></td>
+            <td style="text-align:left;vertical-align:top">
+            Manzano Bananas: $1 per lb<br>
+            Mini variations of bannans grown in California.<br>
+            <input type="button" value="Add to Cart" onClick="location.href='added-to-cart.html'">
+            </td>
+            </tr>
+            <tr>
+            <td><img src="organic.jpg" style="width:200px"></td>
+            <td style="text-align:left;vertical-align:top">
+            Organic Bananas: $1.50 per lb<br>
+            Organically grown bananas.<br>
+            <input type="button" value="Add to Cart" onClick="location.href='added-to-cart.html'">
+            </td>
+            </tr>
+            </table>
+
 
         <a href="index.html">HOME</a>
     </body>
